@@ -42,3 +42,34 @@ This repository provides an object-oriented analytical workflow that moves from 
 ├── .gitignore                       # Ignored temporary files & cache
 ├── requirements.txt                 # Project dependencies
 └── README.md                        # Documentation
+
+1) Installation & Usage
+Clone the repository:
+git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+
+2) Set up a virtual environment (optional but recommended):
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+
+3) Install dependencies:
+pip install -r requirements.txt
+
+4)Run the Notebook or Pipeline:
+Open titanic_analysis.ipynb in VS Code or JupyterLab and execute all cells:
+jupyter notebook
+
+Requirements
+a) python >= 3.9
+b)pandas
+c)numpy
+d)matplotlib
+e)seaborn
+f)scipy
+g)fpdf2 >= 2.7.8
+
+License
+This project is open-source and available under the MIT License.
